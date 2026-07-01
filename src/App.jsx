@@ -1,5 +1,5 @@
 import Navbar from "./Layout/Navbar";
-import Footer from "./Layout/footer";
+import Footer from "./Layout/Footer";
 import {
   BrowserRouter,
   Route,
@@ -27,7 +27,7 @@ import EditFoodPage from "./Components/EditFoodPage";
 import DetailsPage from "./pages/DetailsPage";
 import Order from "./pages/Order";
 import Bookings from "./pages/Bookings";
-import Contactadmin from "./Components/contactadmin";
+import Contactadmin from "./Components/Contactadmin";
 
 function Layout() {
   const location = useLocation();
