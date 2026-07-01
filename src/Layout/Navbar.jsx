@@ -21,7 +21,7 @@ function Navbar() {
 const handleLogout = async () => {
     try {
       await axios.get(
-        "http://localhost:8800/api/auth/logout",
+        "https://food-backend-jaq5.onrender.com/api/auth/logout",
         {
           withCredentials: true,
         }

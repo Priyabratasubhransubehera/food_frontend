@@ -24,7 +24,7 @@ function Contact1() {
 
     try {
       const response = await axios.post(
-        "http://localhost:8800/api/contact/create",
+        "https://food-backend-jaq5.onrender.com/api/contact/create",
         contactData
       );
 
